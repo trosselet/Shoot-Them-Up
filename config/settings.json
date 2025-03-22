@@ -1,0 +1,58 @@
+{
+    "projects": {
+      "Main": {
+        "additionalDependencies": [
+          "ws2_32.lib",
+          "winmm.lib",
+          "gdi32.lib",
+          "flac.lib",
+          "vorbisenc.lib",
+          "vorbisfile.lib",
+          "vorbis.lib",
+          "ogg.lib",
+          "opengl32.lib",
+          "freetype.lib",
+          "sfml-graphics-s-d.lib",
+          "sfml-window-s-d.lib",
+          "sfml-audio-s-d.lib",
+          "sfml-system-s-d.lib",
+          "%(AdditionalDependencies)"
+        ],
+        "additionalIncludeDirectories": [
+          "$(SolutionDir)..\\SFML\\include"
+        ],
+        "additionalLibraryDirectories": [
+          "$(SolutionDir)..\\SFML\\lib"
+        ],
+        "dependencies": [
+        ],
+        "dependents": [],
+        "guid": "5A646E4B-3DF1-4E61-7A97-0A53573910A8",
+        "lib": false,
+        "pch": true,
+        "preprocessorDefinitions": [
+          "SFML_STATIC"
+        ],
+        "vcpkg": false,
+        "window": true
+      },
+        "Render": {
+            "additionalDependencies": [],
+            "additionalIncludeDirectories": [],
+            "additionalLibraryDirectories": [],
+            "dependencies": [],
+            "dependents": [
+            ],
+            "guid": "43155705-0F69-1AD5-6738-50C917D627A4",
+            "lib": true,
+            "pch": true,
+            "preprocessorDefinitions": [],
+            "vcpkg": false,
+            "window": false
+        }
+    },
+    "solution_guid": "424E55E0-6EB7-34FF-4D73-291E32326127",
+    "solution_name": "STU",
+    "startup_project": "Main",
+    "version": "1.17.4"
+}
